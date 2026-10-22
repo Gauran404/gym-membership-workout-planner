@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node tests/whitebox.test.js",
+    "test:whitebox": "node tests/whitebox.test.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
