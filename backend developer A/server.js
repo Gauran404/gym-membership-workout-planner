@@ -91,7 +91,7 @@ const startServer = async () => {
 
     // Create Member from Blackbox Test Cases (TC_LOG_001)
     const gymfitMember = await User.create({
-      name: "Gaurang Sonone",
+      name: "User",
       username: "member@gymfit.com",
       email: "member@gymfit.com",
       password: "Gym@1234",
@@ -101,7 +101,7 @@ const startServer = async () => {
 
     // Create Expired Member from Blackbox Test Cases (TC_LOG_005)
     const expiredMember = await User.create({
-      name: "Expired Member",
+      name: "Expirered Membership",
       username: "expired@gymfit.com",
       email: "expired@gymfit.com",
       password: "Gym@1234",

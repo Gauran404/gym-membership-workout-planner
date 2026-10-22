@@ -27,3 +27,6 @@ Thumbs.db
 # IDE and Editor directories
 .vscode/
 .idea/
+
+# Java compiled bytecode
+*.class

@@ -200,12 +200,8 @@ public class GymWhiteBoxTest {
             }
         }
 
-        return 201; // Success Created
+        return 201; // Success Created}
     }
-
-    // =========================================================================
-    // JUNIT TEST CASES: MODULE 1 (AUTHENTICATION & MEMBERSHIP)
-    // =========================================================================
 
     @Test
     @DisplayName("TC_JUNIT_LOG_01: Branch coverage for empty email & password")
@@ -330,10 +326,6 @@ public class GymWhiteBoxTest {
         assertEquals("Active", user.membershipStatus);
     }
 
-    // =========================================================================
-    // JUNIT TEST CASES: MODULE 2 (WORKOUT PLANNER & BOUNDARY ANALYSIS)
-    // =========================================================================
-
     @Test
     @DisplayName("TC_JUNIT_WP_01: Branch coverage for empty workout plan name")
     public void testEmptyPlanName() {
@@ -375,10 +367,6 @@ public class GymWhiteBoxTest {
         int status = validateWorkoutPlan("Full Athlete Routine", 7);
         assertEquals(201, status);
     }
-
-    // =========================================================================
-    // MAIN EXECUTION ENGINE (Runs All JUnit Tests Automatically with Metrics)
-    // =========================================================================
 
     public static void main(String[] args) {
         System.out.println("\n\u001B[1m\u001B[36m======================================================================\u001B[0m");
